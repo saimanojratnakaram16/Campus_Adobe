@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "663730215530",
+    "project_id": "campus-adobe",
+    "storage_bucket": "campus-adobe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663730215530:android:737efa3c2748dd699d0813",
+        "android_client_info": {
+          "package_name": "com.example.campusadobe"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-AAEnrZf_kiU53uccl0FqnJKrn9d6s-8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663730215530:android:4d699fedb449f8809d0813",
+        "android_client_info": {
+          "package_name": "com.example.homework3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-AAEnrZf_kiU53uccl0FqnJKrn9d6s-8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
