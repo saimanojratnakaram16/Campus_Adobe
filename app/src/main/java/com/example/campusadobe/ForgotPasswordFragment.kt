@@ -16,7 +16,13 @@ class ForgotPasswordFragment : Fragment() {
     private lateinit var etEmail: TextInputEditText
     private lateinit var btnResetPassword: Button
     private lateinit var firebaseAuth: FirebaseAuth
+    var myParent: ForgotPasswordFragment.Parent? = null
+    interface Parent {
 
+    }
+    fun setParent(parent : Parent) {
+        this.myParent = parent
+    }
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -36,6 +42,7 @@ class ForgotPasswordFragment : Fragment() {
 
     private fun resetPassword() {
         val email = etEmail.text.toString()
+        firebaseAuth= FirebaseAuth.getInstance()
 
         if (email.isNotEmpty()) {
             firebaseAuth.sendPasswordResetEmail(email)
